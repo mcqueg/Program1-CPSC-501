@@ -42,12 +42,7 @@ public class Cipher {
 		System.out.print("1st number: ");
 		num_1 = scan.nextInt();
 
-		if (num_1 < 0) {
-			System.out.println("Please read directions and try again!");
-			System.exit(0);
-		}
-
-		if (num_1 > 19) {
+		if ((num_1 < 0) || (num_1 > 19)) {
 			System.out.println("Please read directions and try again!");
 			System.exit(0);
 		}
@@ -56,12 +51,7 @@ public class Cipher {
 		System.out.print("2nd number: ");
 		num_2 = scan.nextInt();
 
-		if (num_2 < 0) {
-			System.out.println("Please read directions and try again!");
-			System.exit(0);
-		}
-
-		if (num_2 > 19) {
+		if ((num_2 < 0) || (num_2 > 19)) {
 			System.out.println("Please read directions and try again!");
 			System.exit(0);
 		}
@@ -70,12 +60,7 @@ public class Cipher {
 		System.out.print("3rd number: ");
 		num_3 = scan.nextInt();
 
-		if (num_3 < 0) {
-			System.out.println("Please read directions and try again!");
-			System.exit(0);
-		}
-
-		if (num_3 > 19) {
+		if ((num_3 < 0) || (num_3 > 19)) {
 			System.out.println("Please read directions and try again!");
 			System.exit(0);
 		}
@@ -84,12 +69,7 @@ public class Cipher {
 		System.out.print("4th number: ");
 		num_4 = scan.nextInt();
 
-		if (num_4 < 0) {
-			System.out.println("Please read directions and try again!");
-			System.exit(0);
-		}
-
-		if (num_4 > 19) {
+		if ((num_4 < 0) || (num_4 > 19)) {
 			System.out.println("Please read directions and try again!");
 			System.exit(0);
 		}
@@ -98,12 +78,7 @@ public class Cipher {
 		System.out.print("5th number: ");
 		num_5 = scan.nextInt();
 
-		if (num_5 < 0) {
-			System.out.println("Please read directions and try again!");
-			System.exit(0);
-		}
-
-		if (num_5 > 19) {
+		if ((num_5 < 0) || (num_5 > 19)) {
 			System.out.println("Please read directions and try again!");
 			System.exit(0);
 		}
